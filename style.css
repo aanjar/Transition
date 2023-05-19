@@ -1,0 +1,126 @@
+.container {
+    position: relative;
+} 
+
+.gambar {
+    background: url(975468.png);
+    background-size: 100% 100%;
+    width: 900px;
+    height: 600px;
+}
+
+.lapis {
+    top: 0;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    display: grid;
+    grid-template-areas: "div1 div2 div3 div4 div5" "div6 div7 div8 div9 div10" "div11 div12 div13 div14 div15";
+    grid-template-columns: "1fr 1fr 1fr";
+    grid-template-rows: "1fr 1fr 1fr 1fr 1fr";
+}
+
+
+
+.div1 {
+    grid-area: div1;
+    background-color: #ffffff;
+    animation: transisi 7s 1s;
+    opacity: 0;
+}
+.div2 {
+    grid-area: div2;
+    background-color: white;
+    animation: transisi 7s 2s;
+    opacity: 0;
+}
+
+.div3 {
+    background-color: white;
+    grid-area: div3;
+    animation: transisi 7s 3s;
+    opacity: 0;
+}
+.div4 {
+    background-color: white;
+    grid-area: div4;
+    animation: transisi 7s 4s;
+    opacity: 0;
+}
+.div5 {
+    background-color: white;
+    grid-area: div5;
+    animation: transisi 7s 5s;
+    opacity: 0;
+}
+.div6 {  
+    background-color: white;
+    grid-area: div6;
+    animation: transisi 7s 2s;
+    opacity: 0;
+}
+.div7 {
+    background-color: white;
+    grid-area: div7;
+    animation: transisi 7s 3s;
+    opacity: 0;
+}
+.div8 {
+    background-color: white;
+    grid-area: div8;
+    animation: transisi 7s 4s;
+    opacity: 0;
+}
+.div9 { 
+    background-color: white;
+    grid-area: div9;
+    animation: transisi 7s 5s;
+    opacity: 0;
+}
+.div10 {
+    background-color: white;
+    grid-area: div10;
+    animation: transisi 7s 6s;
+    opacity: 0;
+}
+.div11 {
+    background-color: white;
+    grid-area: div11;
+    animation: transisi 7s 3s;
+    opacity: 0;
+}
+.div12 {
+    background-color: white;
+    grid-area: div12;
+    animation: transisi 7s 4s;
+    opacity: 0;
+}
+.div13 {
+    animation: transisi 7s 5s;
+    opacity: 0;
+    background-color: white;
+    grid-area: div13;
+}
+.div14 {
+    animation: transisi 7s 6s;
+    opacity: 0;
+    background-color: white;
+    grid-area: div14;
+}
+.div15 {
+    animation: transisi 7s 7s;
+    opacity: 0;
+    background-color: white;
+    grid-area: div15;
+}
+
+
+@keyframes transisi {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
